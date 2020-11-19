@@ -1,20 +1,10 @@
-# KernelAdiutor
+# Magnetism Kernel Manager
 
-[![Build Status](https://travis-ci.org/Grarak/KernelAdiutor.svg?branch=master)](https://travis-ci.org/Grarak/KernelAdiutor)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/kernel-adiutor/localized.png)](https://crowdin.com/project/kernel-adiutor)
-
-* [Join Google+ Community](https://plus.google.com/communities/108445529270785762340) (Beta Testing)
-
-[![Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.grarak.kerneladiutor)
-[![PayPal](https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G3643L52LJQ7G)
-
-## Kernel Downloader
-
-This is a feature which allows the user to download different custom kernels for their device. To add more kernel the developers have to add support by their own. I wrote up a [documentation](https://github.com/Grarak/KernelAdiutor/wiki/Adding-Download-Support) which explains how to do this.
+Kernel manager application that specially made for LunaticKernel and Magentism Kernel/ But. also works with other kernels too!
 
 ## Report a bug or request a feature
 
-You can report a bug or request a feature by [opening an issue](https://github.com/Grarak/KernelAdiutor/issues/new).
+You can report a bug or request a feature by [opening an issue](https://github.com/Buxxed/MagnetismManager/issues/new).
 
 #### How to report a bug
 * A detailed description of the bug
@@ -34,8 +24,8 @@ You can report a bug or request a feature by [opening an issue](https://github.c
 Clone the project and come in:
 
 ``` bash
-$ git clone git://github.com/Grarak/KernelAdiutor.git
-$ cd KernelAdiutor
+$ git clone git://github.com/Buxxed/MagnetismManager.git
+$ cd MagnetismControl
 $ ./gradlew build
 ```
 
@@ -60,7 +50,7 @@ Also codes from different people:
 
 #### Andrei F.
 
-* [RootUtils](https://github.com/Grarak/KernelAdiutor/blob/master/app/src/main/java/com/grarak/kerneladiutor/utils/root/RootUtils.java)
+* [RootUtils](https://github.com/Buxxed/MagnetismManager/blob/master/app/src/main/java/com/grarak/kerneladiutor/utils/root/RootUtils.java)
 
 #### apbaxel
 
@@ -68,15 +58,16 @@ _(Many sys interface paths has been taken from his [UKM-Project](https://github.
 
 #### Brandon Valosek
 
-* [CpuSpyApp](https://github.com/Grarak/KernelAdiutor/blob/master/app/src/main/java/com/bvalosek/cpuspy/CpuSpyApp.java)
-* [CpuStateMonitor](https://github.com/Grarak/KernelAdiutor/blob/master/app/src/main/java/com/bvalosek/cpuspy/CpuStateMonitor.java)
-* [OverallFragment](https://github.com/Grarak/KernelAdiutor/blob/master/app/src/main/java/com/grarak/kerneladiutor/fragments/statistics/OverallFragment.java)
+* [CpuSpyApp](https://github.com/Buxxed/MagnetismManager/blob/master/app/src/main/java/com/bvalosek/cpuspy/CpuSpyApp.java)
+* [CpuStateMonitor](https://github.com/Buxxed/MagnetismManager/blob/master/app/src/main/java/com/bvalosek/cpuspy/CpuStateMonitor.java)
+* [OverallFragment](https://github.com/Buxxed/MagnetismManager/blob/master/app/src/main/java/com/grarak/kerneladiutor/fragments/statistics/OverallFragment.java)
 
 ## License
 
     Copyright (C) 2015-2016 Willi Ye <williye97@gmail.com>
-    
-    Kernel Adiutor is free software: you can redistribute it and/or modify
+              (C) 2020 Alif Fathur <me@herobuxx.xyz>
+
+    Kernel Adiutor/Magnetism Control is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.

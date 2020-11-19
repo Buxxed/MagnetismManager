@@ -12,8 +12,8 @@ import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.util.SparseArray;
 
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.kernel.cpu.CPUFreq;
+import com.herobuxx.magnetism.utils.Utils;
+import com.herobuxx.magnetism.utils.kernel.cpu.CPUFreq;
 
 import java.util.ArrayList;
 import java.util.Collections;

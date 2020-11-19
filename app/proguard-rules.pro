@@ -17,7 +17,7 @@
 #}
 -keepattributes Signature,*Annotation*
 
--keep class com.grarak.kerneladiutor.** { *; }
+-keep class com.herobuxx.magnetism.** { *; }
 
 -keep class com.bumptech.glide.** { *; }
 
